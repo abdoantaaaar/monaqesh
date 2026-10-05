@@ -1,0 +1,28 @@
+# إعدادات الاتصال والأسرار
+.env
+.env.*
+!.env.example
+
+# مكتبات الفرونت وملفات البناء
+node_modules/
+.output/
+dist/
+.wrangler/
+.vite/
+
+# بيئات Python والكاش
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# ملفات المشاريع المرفوعة
+backend/storage/
+
+# قواعد البيانات المحلية والسجلات
+*.db
+*.sqlite
+*.sqlite3
+*.log
